@@ -1,0 +1,29 @@
+.discountDetail{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.name{
+    display: flex;
+    gap: 15px;
+}
+.price{
+    font-size: 20px;
+    font-weight: 750;
+}
+.discountPercent{
+    background-color: rgb(247, 238, 219);
+    border-radius: 3px;
+    color: rgb(255, 44, 2);
+    font-weight: 700;
+    padding: 5px;
+    font-size: 12px;
+    height: 12px;
+    padding-top: 3px;
+    
+}
+.from{
+    text-decoration: line-through;
+    color: rgb(131, 131, 131);
+    font-size: 13px;
+}

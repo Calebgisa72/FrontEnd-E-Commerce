@@ -1,0 +1,94 @@
+.cartt{
+    width: 260px;
+    box-shadow: 5px 0 5px rgba(0, 0, 0, 0.3), 0 5px 5px rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-direction: column;
+}
+.notOpen{
+    display: none;
+}
+.all{
+    max-height: 180px;
+    overflow-y: scroll;overflow-y: scroll;
+}
+.empty{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #5e5d5d;
+    font-family: sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+}
+.Title{
+    padding: 10px;
+    font-weight: 550;
+    font-family: sans-serif;
+    font-size: 14px;
+    padding-top: 5px;
+    border-bottom: 1px solid #d9d6d6;
+}
+.cartItems{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 10px;
+}
+.itemDetail{
+    display: flex;
+    justify-content: space-between;
+}
+.img{
+    width: 45px;
+    border-radius: 5px;
+}
+.details{
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    justify-content: space-between;
+    color: #686868;
+}
+.titlle{
+    font-family: sans-serif;
+    font-size: 12px;
+}
+.total{
+    font-family: sans-serif;
+    font-size: 12px;
+    display: flex;
+    gap: 5px;
+}
+.cost{
+    font-weight: 700;
+    font-size: 13px;
+    color: #000;
+}
+.delete{
+    display: flex;
+    align-items: center;
+}
+.deleteBut{
+    cursor: pointer;
+}
+.checkoutBut{
+    display: flex;
+    width: 220px;
+    height: 40px;
+    color: white;
+    background-color: rgb(236, 129, 42);
+    border: none;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    font-size: 15px;
+    align-self: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.noItems{
+    display: none;
+}
