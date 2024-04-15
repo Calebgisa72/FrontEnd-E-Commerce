@@ -1,0 +1,50 @@
+.headerDiv{
+    display: flex;
+    border-bottom: 1px solid #d8d8d8;
+    gap: 50px;
+    padding: 0px 10px 16px 10px;
+}
+.imagesDiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 9%;
+}
+.profilePic{
+    width: 45%;
+}
+.headerLinks{
+    display: flex;
+    gap: 25px;
+    align-items: center;
+    flex: 1;
+}
+.aLink{
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 14px;
+    color: #7a7878;
+}
+h1{
+    font-size: 25px;
+    font-family: sans-serif;
+    font-weight: 700;
+}
+.cartDiv{
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+.cart{
+    position: absolute;
+    top: 47px;
+    left: -100px;
+    z-index: 1000;
+}
+.cartIcon{
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+.cartIcon:hover{
+    transform: scale(1.2);
+}

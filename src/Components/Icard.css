@@ -1,0 +1,15 @@
+.imgg{
+    width: 90%;
+}
+.imSize{
+    cursor: pointer;
+    border-radius: 6px;
+    width: 18.5%;
+}
+.large{
+    border-radius: 12px;
+  }
+.selected{
+    opacity: 0.46;
+    border: 2px solid rgb(104, 35, 1);
+}
