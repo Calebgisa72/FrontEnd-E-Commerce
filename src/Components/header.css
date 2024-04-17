@@ -4,6 +4,12 @@
     gap: 50px;
     padding: 0px 10px 16px 10px;
 }
+.ff{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
 .imagesDiv{
     display: flex;
     align-items: center;
@@ -12,6 +18,9 @@
 }
 .profilePic{
     width: 45%;
+}
+.humberger{
+    display: none;
 }
 .headerLinks{
     display: flex;
@@ -38,7 +47,7 @@ h1{
 .cart{
     position: absolute;
     top: 47px;
-    left: -100px;
+    left: -110px;
     z-index: 1000;
 }
 .cartIcon{
@@ -47,4 +56,29 @@ h1{
 }
 .cartIcon:hover{
     transform: scale(1.2);
+}
+
+@media(max-width: 450px){
+    .headerLinks{
+        display: none;
+    }
+    .headerDiv{
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px;
+    }
+    .humberger{
+        display: block;
+        width: 25px;
+        height: 20px;
+    }
+    .imagesDiv{
+        width: 80px;
+    }
+    .h11{
+        font-size: 22px;
+    }
+    .cart{
+        left: -270px;
+    }
 }

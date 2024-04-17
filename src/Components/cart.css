@@ -3,6 +3,9 @@
     box-shadow: 5px 0 5px rgba(0, 0, 0, 0.3), 0 5px 5px rgba(0, 0, 0, 0.3);
     display: flex;
     flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    position: fixed;
+    z-index: 1000;
 }
 .notOpen{
     display: none;
@@ -92,3 +95,15 @@
 .noItems{
     display: none;
 }
+
+@media(max-width: 450px){
+    .cartt{
+        width: 95%;
+
+    }
+    .empty{
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+}
+

@@ -40,3 +40,31 @@
 button{
   cursor: pointer;
 }
+
+@media(max-width: 450px){
+  .headerr{
+    width: 100%;
+  }
+  .bodyContent{
+    width: 100%;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .App{
+    gap: 20px;
+  }
+  .small{
+    justify-content: center;
+    align-items: center;
+  }
+  .left{
+    width: 100%;
+    text-align: center;
+    align-items: center;
+  }
+  .right{
+    width: 100%;
+    padding-top: 5px;
+    padding-bottom: 15px;
+  }
+}

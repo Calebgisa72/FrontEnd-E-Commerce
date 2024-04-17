@@ -3,6 +3,8 @@ import avatar from '../assets/images/image-avatar.png';
 import cartIcon from '../assets/images/icon-cart.svg';
 import './header.css';
 import Cart from './Cart';
+import Menu from "./Menu";
+import humbergerIcon from '../assets/images/icon-menu.svg' 
 
 interface details {
   company: string;
@@ -21,6 +23,7 @@ interface headerProps {
 
 function Header({ inCart, image, setInCart }: headerProps) {
   const [isCartOpen,setIsCartOpen]= useState(false);
+  const [isMenuOpen,setIsMenuOpen] = useState(false);
   const setCart= (isCartOpen: boolean) => {
     if(isCartOpen === false){
       setIsCartOpen(true);
@@ -32,7 +35,13 @@ function Header({ inCart, image, setInCart }: headerProps) {
     const links = ['Collections', 'Men', 'Women', 'About', 'Contact'];
     return (
         <div className='headerDiv'>
-            <h1>sneakers</h1>
+          <div className="ff">
+            <img onClick={() => setIsMenuOpen(true)} src={humbergerIcon} className="humberger" alt="" />
+            <h1 className="h11">sneakers</h1>
+          </div>
+          <div>
+          <Menu isMenuOpen = {isMenuOpen} setIsMenuOpen={setIsMenuOpen}/>
+          </div>
             <div className='headerLinks'>
                 {links.map((link, index) => <a key={index} href="#" className='aLink'>{link}</a>)}
             </div>

@@ -1,0 +1,43 @@
+/* Menu.css */
+.backG{
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0px;
+  z-index: 1000;
+  background-color: rgba(0, 0, 0, 0.5);
+  transition: left 0.5s ease, opacity 0.5s ease;
+}
+.close{
+  margin-top: 30px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  border: none;
+  background-color: transparent;
+}
+.notDsiplayed{
+  display: none;
+}
+.menu {
+    width: 40%;
+    height: 100%;
+    background-color: #fff;
+    transition: left 0.5s ease, opacity 0.5s ease;
+  }
+  
+  .menu.open {
+    left: 0;
+  }
+  
+  .menu-link {
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 18px;
+  }
+  
+  .menu-link:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+  
