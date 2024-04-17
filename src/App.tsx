@@ -1,4 +1,3 @@
-// App.tsx
 import React, { useState } from "react";
 import "./App.css";
 import Header from "./Components/Header";
@@ -27,16 +26,11 @@ function App() {
   const [quantity, setQuantity] = useState(0);
   const [selectedImage, setSelectedImage] = useState<string>(allImages[0]);
   const [inCart, setInCart] = useState<details[]>([]);
-  
 
   return (
     <div className="App">
       <div className="headerr">
-        <Header
-          image={allImages[0]}
-          inCart={inCart}
-          setInCart={setInCart}
-        />
+        <Header image={allImages[0]} inCart={inCart} setInCart={setInCart} />
       </div>
       <div className="bodyContent">
         <div className="left">

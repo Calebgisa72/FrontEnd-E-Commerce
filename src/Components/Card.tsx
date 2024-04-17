@@ -8,7 +8,7 @@ interface CardProps {
 function Card({ image }: CardProps) {
     return (
         <div>
-            <img className='imgg large' src={image} alt="" />
+            <img className='imgg imggg large' src={image} alt="" />
         </div>
     )
 }

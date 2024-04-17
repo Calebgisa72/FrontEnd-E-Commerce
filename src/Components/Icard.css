@@ -1,6 +1,9 @@
 .imgg{
     width: 90%;
 }
+.imggg{
+    width: 90%;
+}
 .imSize{
     cursor: pointer;
     border-radius: 6px;
@@ -12,4 +15,10 @@
 .selected{
     opacity: 0.46;
     border: 2px solid rgb(104, 35, 1);
+}
+
+@media(max-width: 450px){
+    .imggg{
+        width: 95%;
+    }
 }

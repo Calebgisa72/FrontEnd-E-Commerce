@@ -9,7 +9,7 @@ function Details({ company, title, description }: props) {
   return (
     <div className='detailss'>
       <h5>{company}</h5>
-      <h1>{title}</h1>
+      <h1 className='h12'>{title}</h1>
       <p>{description}</p>
     </div>
   );

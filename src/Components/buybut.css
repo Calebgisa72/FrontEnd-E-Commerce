@@ -38,3 +38,24 @@
     background-color: rgb(202, 188, 176);
     cursor: not-allowed;
 }
+
+@media(max-width: 450px){
+    .buyBut{
+        flex-direction: column;
+    }
+    .quantityButs{
+        width: 90%;
+    }
+    .operator{
+        flex: 1;
+    }
+    .num{
+        flex: 1;
+    }
+    .addToCartBut{
+        width: 90%;
+    }
+    .checkoutBut{
+        width: 90%;
+    }
+}
